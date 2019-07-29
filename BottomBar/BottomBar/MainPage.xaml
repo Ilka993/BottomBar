@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+            BarBackgroundColor="Transparent"
+            BarTextColor="#2C3E50"
+            android:TabbedPage.ToolbarPlacement="Bottom"
+            android:TabbedPage.BarItemColor="#737373"
+            android:TabbedPage.BarSelectedItemColor="#2C3E50"
+            x:Class="BottomBar.MainPage">
+
+    <ContentPage Title="Statistics" Icon="statistics.png" BackgroundColor="Transparent">
+        <Label Text="Statistikaaaaaaaaa"/>
+    </ContentPage>
+
+    <ContentPage Title="Scan" Icon="scan.png" BackgroundColor="#FAFAFA">
+        <Label Text="Skeniranjeeeeeeeee"/>
+    </ContentPage>
+
+    <ContentPage Title="Purchase" Icon="purchase.png" BackgroundColor="#FAFAFA">
+        <Label Text="Plaranjeeeeeeeeeee"/>
+    </ContentPage>
+</TabbedPage>
+
+<!--#2196F3-->
